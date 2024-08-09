@@ -1,0 +1,249 @@
+.icon-right {
+  width: 42px;
+  height: 42px;
+  border-radius: 25px;
+  vertical-align: middle;
+  margin-right: 10px;
+  object-fit: cover;
+  cursor: pointer;
+  border: 1px solid rgb(226, 226, 226);
+}
+
+.icon-right-inner {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  margin-right: 18px;
+}
+
+.inner-info-box {
+  display: flex;
+  align-items: center;
+  padding: 0px 18px;
+}
+
+
+.icon-info-outer {
+  display: flex;
+  width: 100%;
+  margin: 0;
+  position: relative;
+}
+
+
+
+.icon-info-outer .info-box {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  overflow-x: auto;
+  top: 100%;
+  opacity: 0;
+  width: 366px;
+  height: 306px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  visibility: hidden;
+  box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.15);
+
+  align-items: space-between;
+  justify-content: space-between;
+  z-index: 10;
+
+  padding-bottom: 18px;
+  padding-top: 22px;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+@media (max-width: 1365.02px) and (min-width: 1221px) {
+  .icon-info-outer .info-box-from-icon {
+    right: 0px;
+    top: 105%;
+  }
+}
+
+@media (max-width: 1189.02px){
+  .icon-info-outer .info-box-from-icon {
+    right: 0px;
+    top: 105%;
+  }
+}
+
+@media (max-width: 1528.02px) {
+  .icon-info-outer .info-box-from-name {
+    right: 0px;
+    top: 105%;
+  }
+}
+
+
+
+
+.user-name-right-combined .info-box {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  opacity: 0;
+  top: 50%;
+  width: 366px;
+  height: 306px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  visibility: hidden;
+  box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.15);
+
+  align-items: space-between;
+  justify-content: space-between;
+  z-index: 10;
+
+  padding-bottom: 18px;
+  padding-top: 22px;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+
+
+.icon-info-outer .icon-right:hover ~ .info-box,
+.user-name-right-combined .user-name-right:hover ~ .info-box {
+    visibility: visible;
+    opacity: 1;
+    transition: all 0.3s;
+    transition-delay: 0.3s;
+}
+
+
+.info-box:hover {  
+  visibility: visible;              
+  opacity: 1;                       
+  transition: all 0.3s;    
+  z-index: 10000;         
+}
+
+
+.inner-stat-box {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+}
+
+.inner-stat-box div p {
+  margin: 0px;
+}
+
+.post-stat {
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-user-name-combined p {
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+.following-stat {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.follower-stat {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-post-box {
+  display: flex;
+  align-items: center;
+  align-items: space-between;
+  justify-content: space-between;
+}
+
+.inner-post {
+  width: 120px;
+  height: 120px;
+
+  cursor: pointer;
+
+  object-fit: cover;
+
+}
+
+
+.post-no, .follower-no, .following-no {
+  font-weight: bold;
+}
+
+
+.inner-follow-btn-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bi.bi-person-plus-fill {
+  color: white;
+  margin-right: 10px;
+}
+
+.inner-follow-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 334px;
+  height: 34px;
+  background-color: #0095F6;
+  border: 0px;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.inner-follow-btn:hover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 334px;
+  height: 34px;
+  background-color: #1877F2;
+  border: 0px;
+  color: white;
+  border-radius: 8px;
+}
+
+.inner-follow-btn:active {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 334px;
+  height: 34px;
+  background-color: #125ab9;
+  border: 0px;
+  color: white;
+  border-radius: 8px;
+}
+
+.right-inner-following-btn {
+  display: none;
+  background-color: rgb(230, 230, 230);
+  color: black;
+}
+
+.right-inner-following-btn:hover {
+  background-color: rgb(215, 215, 215);
+  color: black;
+}
+
+.right-inner-following-btn:hover {
+  background-color: rgb(200, 200, 200);
+  color: black;
+}

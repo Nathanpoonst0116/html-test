@@ -1,0 +1,23 @@
+.side-btn-container .sidebar-word-hover {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  overflow-x: auto;
+  left: 170%;
+  top: 11%; 
+  opacity: 0;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  visibility: hidden;
+  box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.15);
+  margin: 0;
+  align-items: space-between;
+  justify-content: space-between;
+  z-index: 10000;
+  padding: 10px 12px;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+
+}
+
+
+
