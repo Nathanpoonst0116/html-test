@@ -112,7 +112,7 @@ The website is made based on the Instagram UI. Only the main page is showcased
 2. Open `ig.html` in a web browser (preferably on MacBook).
 
 ## URL showcase
-- https://edgeguy0116.github.io/html-test/ig.html
+- https://nathanpoonst0116.github.io/html-test/ig.html
 
 ## Completion Date 
 - 17/7/2024 ~ 9/8/2024 (Practice 1)
